@@ -80,7 +80,7 @@
   }
 
   .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)::before {
-    content: "**** READ THIS STUFF IF FILLED ****";
+    content: "*** READ THIS STUFF IF FILLED ***";
     font-size: 1rem;
     background-color: #fd000091;
   }
@@ -88,7 +88,7 @@
 
   /* Competitors Found On Store */
   .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(7) .slds-form.slds-form_stacked:nth-child(1)::before {
-    content: "**** NEEDED IF ANOTHER PAYMENT METHOD IS PRESENT ****";
+    content: "*** NEEDED IF ANOTHER PAYMENT METHOD IS PRESENT ***";
     font-size: 1rem
   }
 
