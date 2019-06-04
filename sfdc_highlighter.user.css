@@ -1,88 +1,98 @@
-/*.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(1) .slds-form.slds-form_stacked:nth-child(1) > div:nth-child(1) > div:nth-child(2),*/
-/*BASE > SECTION > ROW > COLUMN*/
+/* ==UserStyle==
+@name           SFDC Integrations Highlighter v2
+@namespace      github.com/openstyles/stylus
+@updateURL   		https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
+@version        2.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document url-prefix("https://afterpay.lightning.force.com/lightning/r/Case/") {
 
-/* Integration Engineer */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(2),
-/* Status */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(6)>div:nth-child(1),
-/* Theme Store ID */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1),
-/* Theme Name */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(2)>div:nth-child(1),
-/* Present_Afterpay Used */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(2)>div:nth-child(2),
-/* Gateway */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(3)>div:nth-child(2),
-/* Product Page */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(4) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1),
-/* Cart Page */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(4) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(2),
-/* Checkout Page */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(4) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(2)>div:nth-child(1) {
-  background-color: #ff80001c;
-}
+  /*.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(1) .slds-form.slds-form_stacked:nth-child(1) > div:nth-child(1) > div:nth-child(2),*/
+  /*BASE > SECTION > ROW > COLUMN*/
+  /* Integration Engineer */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(2),
+  /* Status */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(6)>div:nth-child(1),
+  /* Theme Store ID */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+  /* Theme Name */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(2)>div:nth-child(1),
+  /* Present_Afterpay Used */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(2)>div:nth-child(2),
+  /* Gateway */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(3)>div:nth-child(2),
+  /* Product Page */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(4) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+  /* Cart Page */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(4) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(2),
+  /* Checkout Page */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(4) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(2)>div:nth-child(1) {
+    background-color: #ff80001c;
+  }
 
-/* Integration Notes */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1) {
-  background-color: #fd00002e;
-}
+  /* Integration Notes */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1) {
+    background-color: #fd00002e;
+  }
 
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)::before {
-  content: "**** READ THIS STUFF IF FILLED ****";
-  font-size: 1rem;
-  background-color: #fd000091;
-}
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)::before {
+    content: "**** READ THIS STUFF IF FILLED ****";
+    font-size: 1rem;
+    background-color: #fd000091;
+  }
 
-/* Competitors Found On Store */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(7) .slds-form.slds-form_stacked:nth-child(1)::before {
-  content: "**** NEEDED IF ANOTHER PAYMENT METHOD IS PRESENT ****";
-  font-size: 1rem;
-}
+  /* Competitors Found On Store */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(7) .slds-form.slds-form_stacked:nth-child(1)::before {
+    content: "**** NEEDED IF ANOTHER PAYMENT METHOD IS PRESENT ****";
+    font-size: 1rem;
+  }
 
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(7) .slds-form.slds-form_stacked:nth-child(1) {
-  background-color: #2fff001c;
-}
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(7) .slds-form.slds-form_stacked:nth-child(1) {
+    background-color: #2fff001c;
+  }
 
-/* Editing Mode Highlighting */
-/* Integration Engineer */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(2),
-/* Status */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(6)>div:nth-child(1),
-/* Theme Store ID */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1),
-/* Theme Name */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(2)>div:nth-child(1),
-/* Present_Afterpay Used */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(2)>div:nth-child(2),
-/* Gateway */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(3)>div:nth-child(2),
-/* Product Page */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(4) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1),
-/* Cart Page */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(4) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(2),
-/* Checkout Page */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(4) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(2)>div:nth-child(1) {
-  background-color: #ff80001c;
-}
+  /* Editing Mode Highlighting */
+  /* Integration Engineer */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(2),
+  /* Status */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(6)>div:nth-child(1),
+  /* Theme Store ID */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+  /* Theme Name */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(2)>div:nth-child(1),
+  /* Present_Afterpay Used */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(2)>div:nth-child(2),
+  /* Gateway */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(3)>div:nth-child(2),
+  /* Product Page */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(4) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+  /* Cart Page */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(4) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(2),
+  /* Checkout Page */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(4) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(2)>div:nth-child(1) {
+    background-color: #ff80001c;
+  }
 
-/* Integration Notes */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1) {
-  background-color: #fd00002e;
-}
+  /* Integration Notes */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1) {
+    background-color: #fd00002e;
+  }
 
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)::before {
-  content: "**** READ THIS STUFF IF FILLED ****";
-  font-size: 1rem;
-  background-color: #fd000091;
-}
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)::before {
+    content: "**** READ THIS STUFF IF FILLED ****";
+    font-size: 1rem;
+    background-color: #fd000091;
+  }
 
 
-/* Competitors Found On Store */
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(7) .slds-form.slds-form_stacked:nth-child(1)::before {
-  content: "**** NEEDED IF ANOTHER PAYMENT METHOD IS PRESENT ****";
-  font-size: 1rem
-}
+  /* Competitors Found On Store */
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(7) .slds-form.slds-form_stacked:nth-child(1)::before {
+    content: "**** NEEDED IF ANOTHER PAYMENT METHOD IS PRESENT ****";
+    font-size: 1rem
+  }
 
-.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(7) .slds-form.slds-form_stacked:nth-child(1) {
-  background-color: #2fff001c;
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(7) .slds-form.slds-form_stacked:nth-child(1) {
+    background-color: #2fff001c;
+  }
 }
