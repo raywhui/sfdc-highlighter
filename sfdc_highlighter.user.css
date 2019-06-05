@@ -2,7 +2,7 @@
 @name           SFDC Integrations Highlighter v2
 @namespace      Raywhui
 @updateURL   		https://raywhui.github.io/sfdc-highlighter/sfdc_highlighter.user.css
-@version        2.0.1
+@version        2.0.2
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -13,7 +13,7 @@
   /* Integration Engineer */
   .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(2),
   /* Status */
-  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(6)>div:nth-child(1),
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1),
   /* Theme Store ID */
   .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1),
   /* Theme Name */
@@ -56,7 +56,7 @@
   /* Integration Engineer */
   .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(2),
   /* Status */
-  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(6)>div:nth-child(1),
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(1) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1),
   /* Theme Store ID */
   .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(2) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(1),
   /* Theme Name */
