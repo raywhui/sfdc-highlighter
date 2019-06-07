@@ -2,12 +2,11 @@
 @name           SFDC Integrations Highlighter v2
 @namespace      Raywhui
 @updateURL   		https://raywhui.github.io/sfdc-highlighter/sfdc_highlighter.user.css
-@version        2.0.2
+@version        2.0.3
 @description    Highlighting tool for cases in SFDC
 @author         Raymond Hui
 ==/UserStyle== */
 @-moz-document url-prefix("https://afterpay.lightning.force.com/lightning/r/Case/") {
-
   /*.test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(1) .slds-form.slds-form_stacked:nth-child(1) > div:nth-child(1) > div:nth-child(2),*/
   /*BASE > SECTION > ROW > COLUMN*/
   /* Integration Engineer */
@@ -32,26 +31,31 @@
   }
 
   /* Notes from Sales */
-  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(2) {
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(3)
+    .slds-form.slds-form_stacked:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(2) {
     background-color: #fd00002e;
   }
 
-  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)::before {
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(3)
+    .slds-form.slds-form_stacked:nth-child(1)::before {
     content: "**** READ THIS STUFF IF FILLED ****";
     font-size: 1rem;
     background-color: #fd000091;
   }
 
   /* Competitors Found On Store */
-  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(7) .slds-form.slds-form_stacked:nth-child(1)::before {
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(5)
+    .slds-form.slds-form_stacked:nth-child(1)::before {
     content: "**** NEEDED IF ANOTHER PAYMENT METHOD IS PRESENT ****";
     font-size: 1rem;
   }
 
-  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(7) .slds-form.slds-form_stacked:nth-child(1) {
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionView:nth-child(5)
+    .slds-form.slds-form_stacked:nth-child(1) {
     background-color: #2fff001c;
   }
-
 
   /* Editing Mode Highlighting */
   /* Integration Engineer */
@@ -76,24 +80,29 @@
   }
 
   /* Notes from Sales */
-  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)>div:nth-child(1)>div:nth-child(2) {
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(3)
+    .slds-form.slds-form_stacked:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(2) {
     background-color: #fd00002e;
   }
 
-  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(3) .slds-form.slds-form_stacked:nth-child(1)::before {
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(3)
+    .slds-form.slds-form_stacked:nth-child(1)::before {
     content: "**** READ THIS STUFF IF FILLED ****";
     font-size: 1rem;
     background-color: #fd000091;
   }
 
-
   /* Competitors Found On Store */
-  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(7) .slds-form.slds-form_stacked:nth-child(1)::before {
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(5)
+    .slds-form.slds-form_stacked:nth-child(1)::before {
     content: "*** NEEDED IF ANOTHER PAYMENT METHOD IS PRESENT ***";
-    font-size: 1rem
+    font-size: 1rem;
   }
 
-  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(7) .slds-form.slds-form_stacked:nth-child(1) {
+  .test-id__section.slds-section.slds-is-open.full.forcePageBlockSection.forcePageBlockSectionEdit:nth-child(5)
+    .slds-form.slds-form_stacked:nth-child(1) {
     background-color: #2fff001c;
   }
 }
